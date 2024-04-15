@@ -1,0 +1,70 @@
+(base) root@ratik:~/CryoModel/CryoMEM# python memory_model.py configs/cache-sram.cfg 77 22 1 0.4 8192 cache
+Cache size                    : 8192
+Block size                    : 64
+Associativity                 : 8
+Read only ports               : 0
+Write only ports              : 0
+Read write ports              : 2
+Single ended read ports       : 0
+Cache banks (UCA)             : 1
+Technology                    : 0.022
+Temperature                   : 360
+Tag size                      : 42
+array type                    : Scratch RAM
+Model as memory               : 0
+Model as 3D memory               : 0
+Access mode                   : 0
+Data array cell type          : 0
+Data array peripheral type    : 0
+Tag array cell type           : 0
+Tag array peripheral type     : 0
+Optimization target           : 2
+Design objective (UCA wt)     : 100 0 0 100 0
+Design objective (UCA dev)    : 0 100 100 0 100
+Cache model                   : 0
+Nuca bank                     : 0
+Wire inside mat               : 1
+Wire outside mat              : 1
+Interconnect projection       : 1
+Wire signaling               : 1
+Print level                   : 0
+ECC overhead                  : 1
+Page size                     : 8192
+Burst length                  : 8
+Internal prefetch width       : 8
+Force cache config            : 0
+Subarray Driver direction       : 1
+iostate                       : WRITE
+dram_ecc                      : NO_ECC
+io_type                     : DDR3
+dram_dimm                      : UDIMM
+
+---------- CACTI (version 7.0.3DD Prerelease of Aug, 2012), Uniform Cache Access SRAM Model ----------
+
+Cache Parameters:
+    Total cache size (bytes): 8192
+    Number of banks: 1
+    Associativity: 8
+    Block size (bytes): 64
+    Read/write Ports: 2
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.102978
+    Cycle time (ns):  0.108779
+    Total dynamic read energy per access (nJ): 0.00477601
+    Total dynamic write energy per access (nJ): 0.00399417
+    Total leakage power of a bank (mW): 0.000288584
+    Total gate leakage power of a bank (mW): 0.0274007
+    Cache height x width (mm): 0.0770927 x 0.207849
+
+    Best Ndwl : 2
+    Best Ndbl : 2
+    Best Nspd : 0.125
+    Best Ndcm : 2
+    Best Ndsam L1 : 8
+    Best Ndsam L2 : 1
+
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+=============================================

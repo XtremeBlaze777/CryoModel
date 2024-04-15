@@ -21,8 +21,8 @@ endif
 
 #CXXFLAGS = -Wall -Wno-unknown-pragmas -Winline $(DBG) $(OPT) 
 CXXFLAGS = -Wno-unknown-pragmas -std=c++17 $(DBG) $(OPT)
-CXX = /opt/gcc-9.2/bin/g++-9.2 -m64
-CC  = /opt/gcc-9.2/bin/gcc-9.2 -m64
+CXX = g++-9 -m64
+CC  = gcc-9 -m64
 
 SRCS  = arbiter.cc bank.cc basic_circuit.cc bob_conf.cc cacti_interface.cc calculate_time.cc channel_conf.cc \
 component.cc crossbar.cc decoder.cc device_type.cc driver.cc dynamic_parameter.cc extio.cc htree2.cc \
