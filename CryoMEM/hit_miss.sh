@@ -27,3 +27,32 @@ for i in $(seq 1 6); do
 	# echo "cache: $cache, dram: $dram"
 	echo "0.9*$cache + 0.1*$dram" | bc
 done
+
+
+# Classical Computing
+
+# cacticache=$(cacti/cacti -infile configs/cache-sram.cfg)
+# cactidram=$(cacti/cacti -infile configs/DRAM.cfg)
+
+# echo "Cacti cache: $cacticache"
+
+
+# grid sweep
+sizes=(2048 4096 8192 16384)
+temps=(77 4 300)
+associativities=(0 4 8)
+technology=(22 32 45)
+for temp in 77 4 300; do
+	for size in 2048 4096 8192 16384; do
+		sed -i 's/-size (bytes) .*/-size (bytes) '$size'/' configs/cache-sram_sed.cfg
+		for assoc in 0 4 8; do
+			sed -i 's/-associativity .*/-associativity '$assoc'/' configs/cache-sram_sed.cfg
+			for tech in 22 32 45; do
+				sed -i 's/-technology (u) .*/-technology (u) '$tech'/' configs/cache-sram_sed.cfg
+				python3.8 memory_model.py configs/cache-sram_sed.cfg $temp $tech 1 0.4 $size cache > /dev/null
+				python3.8 memory_model.py configs/DRAM.cfg $temp $tech 1 0.4 $size dram 1.2 0.4 > /dev/null
+			done
+		done
+	done
+done
+	
