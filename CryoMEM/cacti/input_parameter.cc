@@ -25,7 +25,7 @@
  * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.¡±
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.ï¿½ï¿½
  *
  ***************************************************************************/
 
@@ -1101,7 +1101,7 @@ bool InputParameter::error_checking()
     }
     else if (F_sz_um > 0.091)
     {
-        cerr << "Feature size must be <= 90 nm" << endl;
+        cerr << "Feature size ("<< F_sz_um << ") must be <= 90 nm" << endl;
         return false;
     }
 
