@@ -1,0 +1,234 @@
+Cache size                    : 65536
+Block size                    : 64
+Associativity                 : 8
+Read only ports               : 0
+Write only ports              : 0
+Read write ports              : 2
+Single ended read ports       : 0
+Cache banks (UCA)             : 1
+Technology                    : 0.022
+Temperature                   : 360
+Tag size                      : 42
+array type                    : Scratch RAM
+Model as memory               : 0
+Model as 3D memory       	 : 0
+Access mode                   : 0
+Data array cell type          : 0
+Data array peripheral type    : 0
+Tag array cell type           : 0
+Tag array peripheral type     : 0
+Optimization target           : 2
+Design objective (UCA wt)     : 100 0 0 100 0
+Design objective (UCA dev)    : 0 100 100 0 100
+Cache model                   : 0
+Nuca bank                     : 0
+Wire inside mat               : 1
+Wire outside mat              : 1
+Interconnect projection       : 1
+Wire signaling               : 1
+Print level                   : 0
+ECC overhead                  : 1
+Page size                     : 8192
+Burst length                  : 8
+Internal prefetch width       : 8
+Force cache config            : 0
+Subarray Driver direction       : 1
+iostate                       : WRITE
+dram_ecc                      : NO_ECC
+io_type                     : DDR3
+dram_dimm                      : UDIMM
+
+---------- CACTI (version 7.0.3DD Prerelease of Aug, 2012), Uniform Cache Access SRAM Model ----------
+
+Cache Parameters:
+    Total cache size (bytes): 65536
+    Number of banks: 1
+    Associativity: 8
+    Block size (bytes): 64
+    Read/write Ports: 2
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.215129
+    Cycle time (ns):  0.215164
+    Total dynamic read energy per access (nJ): 0.0145654
+    Total dynamic write energy per access (nJ): 0.0103941
+    Total leakage power of a bank (mW): 0.00203055
+    Total gate leakage power of a bank (mW): 0.187593
+    Cache height x width (mm): 0.267741 x 0.432475
+
+    Best Ndwl : 2
+    Best Ndbl : 4
+    Best Nspd : 0.25
+    Best Ndcm : 4
+    Best Ndsam L1 : 8
+    Best Ndsam L2 : 1
+
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+=============================================
+
+
+Cache size                    : 262144
+Block size                    : 64
+Associativity                 : 8
+Read only ports               : 0
+Write only ports              : 0
+Read write ports              : 2
+Single ended read ports       : 0
+Cache banks (UCA)             : 1
+Technology                    : 0.022
+Temperature                   : 360
+Tag size                      : 42
+array type                    : Scratch RAM
+Model as memory               : 0
+Model as 3D memory       	 : 0
+Access mode                   : 0
+Data array cell type          : 0
+Data array peripheral type    : 0
+Tag array cell type           : 0
+Tag array peripheral type     : 0
+Optimization target           : 2
+Design objective (UCA wt)     : 100 0 0 100 0
+Design objective (UCA dev)    : 0 100 100 0 100
+Cache model                   : 0
+Nuca bank                     : 0
+Wire inside mat               : 1
+Wire outside mat              : 1
+Interconnect projection       : 1
+Wire signaling               : 1
+Print level                   : 0
+ECC overhead                  : 1
+Page size                     : 8192
+Burst length                  : 8
+Internal prefetch width       : 8
+Force cache config            : 0
+Subarray Driver direction       : 1
+iostate                       : WRITE
+dram_ecc                      : NO_ECC
+io_type                     : DDR3
+dram_dimm                      : UDIMM
+
+---------- CACTI (version 7.0.3DD Prerelease of Aug, 2012), Uniform Cache Access SRAM Model ----------
+
+Cache Parameters:
+    Total cache size (bytes): 262144
+    Number of banks: 1
+    Associativity: 8
+    Block size (bytes): 64
+    Read/write Ports: 2
+    Read ports: 0
+    Write ports: 0
+    Technology size (nm): 22
+
+    Access time (ns): 0.365081
+    Cycle time (ns):  0.215164
+    Total dynamic read energy per access (nJ): 0.0301614
+    Total dynamic write energy per access (nJ): 0.0259901
+    Total leakage power of a bank (mW): 0.00812221
+    Total gate leakage power of a bank (mW): 0.750373
+    Cache height x width (mm): 1.07026 x 0.457247
+
+    Best Ndwl : 2
+    Best Ndbl : 16
+    Best Nspd : 0.25
+    Best Ndcm : 4
+    Best Ndsam L1 : 8
+    Best Ndsam L2 : 1
+
+    Data array, H-tree wire type: Global wires with 30% delay penalty
+=============================================
+
+
+Cache size                    : 8
+Block size                    : 64
+Associativity                 : 1
+Read only ports               : 0
+Write only ports              : 0
+Read write ports              : 1
+Single ended read ports       : 0
+Cache banks (UCA)             : 16
+Technology                    : 0.022
+Temperature                   : 300
+Tag size                      : 42
+array type                    : Scratch RAM
+Model as memory               : 1
+Model as 3D memory       	 : 1
+Access mode                   : 2
+Data array cell type          : 4
+Data array peripheral type    : 0
+Tag array cell type           : 0
+Tag array peripheral type     : 0
+Optimization target           : 0
+Design objective (UCA wt)     : 0 0 10 0 10
+Design objective (UCA dev)    : 50 100000 100000 100000 1000000
+Cache model                   : 0
+Nuca bank                     : 0
+Wire inside mat               : 1
+Wire outside mat              : 2
+Interconnect projection       : 1
+Wire signaling               : 1
+Print level                   : 0
+ECC overhead                  : 1
+Page size                     : 8192
+Burst length                  : 8
+Internal prefetch width       : 8
+Force cache config            : 0
+Subarray Driver direction       : 1
+iostate                       : READ
+dram_ecc                      : NO_ECC
+io_type                     : DDR4
+dram_dimm                      : UDIMM
+-------  CACTI (version 7.0.3DD Prerelease of Aug, 2012) 3D DRAM Main Memory  -------
+
+Memory Parameters:
+	Total memory size (Gb): 8
+	Number of banks: 16
+	Technology size (nm): 22
+	Page size (bits): 8192
+	Burst depth: 8
+	Chip IO width: 8
+	Best Ndwl: 16
+	Best Ndbl: 512
+	# rows in subarray: 128
+	# columns in subarray: 512
+
+More detail Configuration:
+		Ndcm:	1
+		Ndwl:	16
+		Ndbl:	512
+		Nspd:	0.125
+		Ndsam lev1:	1
+		Ndsam lev2:	1
+		bank length:	366.058
+		bank_height:	3164.1
+		mat length:	25.674
+		mat height:	11.9266
+		subarray length:	25.674
+		subarray height:	5.632
+		area per bank:	2.30827e+07
+
+Results:
+Timing Components:
+	   t_RCD (Row to column command delay): 2.7371 ns
+	   t_RAS (Row access strobe latency): 4.04402 ns
+	   t_RC (Row cycle): 5.36569 ns
+	   t_CAS (Column access strobe latency): 4.99923 ns
+	   t_RP (Row precharge latency): 1.32167 ns
+	   t_RRD (Row activation to row activation delay): 1.09605 ns
+Power Components:
+	   Activation energy: 0.255771 nJ
+	   Read energy: 0.726861 nJ
+	   Write energy: 0.726876 nJ
+	   Precharge energy: 0.143875 nJ
+           Standby leakage per bank: 65.1873 mW
+Area Components:
+	   DRAM core area: 52.691 mm2
+	   DRAM area per die: 64.8518 mm2
+	   Area efficiency: 28.8487%
+	   DRAM die width: 2.64565 mm
+	   DRAM die height: 24.5126 mm
+	   DRAM area per bank: 23.0827 mm
+=============================================
+
+

@@ -1,0 +1,7 @@
+Tech node (nm), Capacity (bytes), Number of banks, Associativity, Output width (bits), Access time (ns), Random cycle time (ns), Dynamic search energy (nJ), Dynamic read energy (nJ), Dynamic write energy (nJ), Standby leakage per bank(mW), Area (mm2), Ndwl, Ndbl, Nspd, Ndcm, Ndsam_level_1, Ndsam_level_2, Data arrary area efficiency %, Ntwl, Ntbl, Ntspd, Ntcm, Ntsam_level_1, Ntsam_level_2, Tag arrary area efficiency %, 
+22, 8, 16, 1, 64, 8.01908, 6.87397, N/A, 0.734811, 0.734826, 0.266429, 52.6573, 16, 512, 0.125, 1, 1, 1, 35.5295, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
+22, 8, 16, 1, 64, 7.73633, 6.68736, N/A, 0.726861, 0.726876, 65.1873, 52.691, 16, 512, 0.125, 1, 1, 1, 35.5067, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
+22, 8, 16, 1, 64, 17.1532, 17.2872, N/A, 0.66171, 0.66174, 2.60439e+07, 38.1956, 8, 256, 0.125, 1, 1, 1, 48.9817, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
+22, 8, 16, 1, 64, 8.01908, 6.87397, N/A, 0.734811, 0.734826, 0.266429, 52.6573, 16, 512, 0.125, 1, 1, 1, 35.5295, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
+22, 8, 16, 1, 64, 7.73633, 6.68736, N/A, 0.726861, 0.726876, 65.1873, 52.691, 16, 512, 0.125, 1, 1, 1, 35.5067, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
+22, 8, 16, 1, 64, 17.1532, 17.2872, N/A, 0.66171, 0.66174, 2.60439e+07, 38.1956, 8, 256, 0.125, 1, 1, 1, 48.9817, N/A, N/A, N/A, N/A, N/A, N/A, N/A, 
